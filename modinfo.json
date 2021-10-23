@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "milk_is_milk",
+    "name": "Milk is milk",
+    "authors": [ "alloyandroid" ],
+    "description": "Non-dairy milks can stand in for milk.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

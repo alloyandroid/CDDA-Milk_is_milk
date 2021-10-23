@@ -1,0 +1,22 @@
+[
+  {
+    "id": "milk_nondairy",
+    "type": "requirement",
+    "//": "Non-dairy milk alternatives.",
+    "components": [ [ [ "almond_milk", 1 ], [ "soy_milk", 1] ] ]
+  },
+  {
+    "id": "milk_standard_raw",
+    "type": "requirement",
+    "//": "Equivalent to milk_standard, with addition of raw milk for recipes using a heat source to kill microbes",
+    "components": [ [ [ "milk_standard", 1, "LIST" ], [ "milk_raw", 1 ], [ "milk_nondairy", 1, "LIST" ] ] ]
+  },
+  {
+    "id": "milk_standard_raw_fresh",
+    "type": "requirement",
+    "//": "Equivalent to milk_standard_raw, but without milk_reconstituted",
+    "components": [ [ [ "milk", 1 ], [ "milk_UHT", 1 ], [ "milk_raw", 1 ], [ "milk_nondairy", 1, "LIST" ] ] ]
+  }
+]
+
+
